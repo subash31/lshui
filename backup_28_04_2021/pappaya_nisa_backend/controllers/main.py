@@ -31,7 +31,14 @@ class Nisauserregistration(http.Controller):
 
     @http.route('/lifespace/urbanluxury', website=True, type='http', auth='public')
     def reg5(self, **post):
-        return request.render('pappaya_nisa_backend.nisa_urban',)       
+        return request.render('pappaya_nisa_backend.nisa_urban',)
 
+    @http.route('/lifespace/wishlist', website=True, type='http', auth='public')
+    def reg6(self, **post):
+        return request.render('pappaya_nisa_backend.nisa_wishlist',)   
+
+    @http.route('/lifespace/productdetail', website=True, type='http', auth='public')
+    def reg7(self, **post):
+        return request.render('pappaya_nisa_backend.lsh_prod_detail',)      
 
         

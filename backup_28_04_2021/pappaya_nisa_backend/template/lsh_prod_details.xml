@@ -1,0 +1,154 @@
+<odoo>
+    <template id="lsh_prod_detail" name="Urban">
+        <t t-call="website.layout">
+            <head>
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"/>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+                <link rel="stylesheet" href="/pappaya_nisa_backend/static/src/css/mainpage.css"/>
+                <link href="/pappaya_nisa_backend/static/src/web/uicons-regular-rounded.css" rel="stylesheet"/>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                <style>
+                    body{
+                        background:white!important;
+                    }
+                    .btn-primary{ background-color: #F9BE26 !important}
+                    .line-height-30{ line-height:30px}
+                    .opacity-0{ opacity: 0 !important}
+                    .switch input:checked + label {
+                        border-color: #F9BE26;
+                    }
+                    .switch label {
+                        padding: 7px 8px;
+                        border: 2px solid #ececec;
+                    }
+                </style>
+            </head>
+            <body>
+                <!--product details page-->
+                <div class="row mx-5 mt-5">
+                    <div class="col-md-7 mb-5 p-0 pr-4">
+                        <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/wishlist/Rectangle 102.png" alt="Card image cap"/>
+                    </div>
+                    <div class="col-md-5 mb-5 p-0 pr-4">
+                        <p class="product-code h3 text-muted mb-4">Sofas - URL-ST.S003</p>
+                        <div class="prod-desc">
+                            <h3 class="font-weight-bold">Amesterdam</h3>
+                            <p class="font-18 mb-4 mt-3">An extremely comfortable mix of hypersoft foam and down. Even the armrest and backrests come 
+                                with extra padding to make the sofa comfortable all around.</p>
+                            <h4 class="font-weight-bold">Upholstery</h4>
+                            <ul class="list-unstyled mb-4 mt-3">
+                                <li class="float-left mr-5 w">
+                                    <span class="switch float-left"><input type="radio" name="fabric" class="position-absolute opacity-0" value="fabric" id="fabric"/><label for="fabric">Fabric</label></span>
+                                    <span class="switch"><input type="radio" name="fabric" class="position-absolute opacity-0" value="PU" id="PU"/><label for="PU">PU</label></span>
+                                </li>
+                                <li>
+                                    <label>Swatch :</label>
+                                    <span class="switch"><input type="radio" name="swatch" value="swatch" class="position-absolute opacity-0"/><label for="swatch">Touch 804</label></span>
+                                </li>
+                            </ul>
+                            <h4 class="font-weight-bold w-100">Finish</h4>
+                            <ul class="list-unstyled mb-4 mt-3">
+                                <li>
+                                    <label>Legs :</label>
+                                    <span class="switch"><input type="radio" name="legs" value="legs" id="legs" class="position-absolute opacity-0"/><label for="legs">Touch 804</label></span>
+                                </li>
+                            </ul>
+                            <div class="price-details">
+                                <span class="float-left h2 font-weight-bold">INR  29,700</span>
+                                <span class="float-right">
+                                    <a href="#" class="btn-primary h4 btn-primary py-2 px-4">Add to Cart</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mx-5 mt-5">
+                    <h2 class="text-center font-weight-bold mb-5">PRODUCT DETAILS</h2>
+                    <div class="col-md-6">
+                        <ol class="list-group list-unstyled">
+                            <li class="list-group-item d-flex justify-content-between align-items-start border-0">
+                                <div class="ms-2 me-auto line-height-30 mb-3">
+                                <div class="font-weight-bold h4">Dimensions and weight</div>
+                                    Height :  800 mm<br/>
+                                    Width :  1800 mm<br/>
+                                    Depth :  900 mm<br/>
+                                    Weight :  35kg<br/>
+                                    Seats :  3<br/>
+                                </div>
+                            </li>
+                        </ol>
+                        <ol class="list-group list-unstyled">
+                            <li class="list-group-item d-flex justify-content-between align-items-start border-0">
+                                <div class="ms-2 me-auto mb-3">
+                                <div class="font-weight-bold h4">Key features</div>
+                                    The modules can be moved freely and used both alone and in your preferred combination
+                                </div>
+                            </li>
+                        </ol>
+                        <ol class="list-group list-unstyled">
+                            <li class="list-group-item d-flex justify-content-between align-items-start border-0">
+                                <div class="ms-2 me-auto mb-3">
+                                <div class="font-weight-bold h4">Finish</div>
+                                    Leg: powder coated
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="col-md-6">
+                         <ol class="list-group list-unstyled">
+                            <li class="list-group-item d-flex justify-content-between align-items-start border-0">
+                                <div class="ms-2 me-auto line-height-30 mb-3">
+                                <div class="font-weight-bold h4 line-height-30">Materials</div>
+                                   Composition: 100% polyester<br/>
+                                    Leg: steel<br/>
+                                    Back: 22 kg/m3, 23kg/m3 fibre wadding<br/>
+                                    Back cushion: foam, feather mix<br/>
+                                    Frame: Solid wood / particle board / plywood<br/>
+                                    Seat: 35 kg/m3 HR foam /23kg/wadding<br/>
+                                    Suspension: rubberized belts, Zig-zag springs, pocket springs<br/>
+                                    Fabric lining: Non-woven fabric (120g/m2), Jacquard fabric<br/>
+                                </div>
+                            </li>
+                        </ol>
+                        <ol class="list-group list-unstyled">
+                            <li class="list-group-item d-flex justify-content-between align-items-start border-0">
+                                <div class="ms-2 me-auto mb-3">
+                                <div class="font-weight-bold h4">Assembly Instructions</div>
+                                    This product is easy to assemble. Just follow the instructions and we’re sure you can do it without any extra help from us.
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="row mx-5 mt-5">
+                    <h2 class="text-center font-weight-bold mb-5">SIMILAR PRODUCTS</h2>
+                    <div class="row mx-auto p-0 mb-5">
+                        <div class="col-md-4">
+                            <div class="card shadow border-0 p-5">
+                                <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/wishlist/Rectangle 49.png" alt="Card image cap"/>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card shadow border-0 p-5">
+                                <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/wishlist/Rectangle 50.png" alt="Card image cap"/>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card shadow border-0 p-5">
+                                <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/wishlist/Rectangle 51.png" alt="Card image cap"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--js file-->
+                <script src="/pappaya_nisa_backend/static/src/js/mainpage.js"></script>
+                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+                
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+            </body>
+        </t>
+    </template>
+</odoo>

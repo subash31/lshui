@@ -1,0 +1,131 @@
+<odoo>
+    <template id="nisa_wishlist" name="Urban">
+        <t t-call="website.layout">
+            <head>
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"/>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+                <link rel="stylesheet" href="/pappaya_nisa_backend/static/src/css/mainpage.css"/>
+                <link href="/pappaya_nisa_backend/static/src/web/uicons-regular-rounded.css" rel="stylesheet"/>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                <style>
+                    body{
+                        background:white!important;
+                    }
+                </style>
+            </head>
+            <body>
+                <!-- sliding carosuel-->
+                <div id="carouselExampleControls" class="carousel slide pt-5 px-md-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="/pappaya_nisa_backend/static/src/img/wishlist/Rectangle 101.png" class="d-block w-100" alt="..."/>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="/pappaya_nisa_backend/static/src/img/wishlist/Rectangle 101.png" class="d-block w-100" alt="..."/>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="/pappaya_nisa_backend/static/src/img/wishlist/Rectangle 101.png" class="d-block w-100" alt="..."/>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+
+                <!--wishlist page-->
+                <div class="row mx-5 mt-5">
+                    <div class="col-md-6 mb-5 p-0 pr-4">
+                        <div class="card shadow border-0">
+                            <img class="fav-img position-absolute float-right end-0 m-4" src="/pappaya_nisa_backend/static/src/img/wishlist/fav.svg" alt="fav img"/>
+                            <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/wishlist/Rectangle 102.png" alt="Card image cap"/>
+                        </div>
+                        <div class="prod-details mt-3">
+                            <span class="text-align-left float-left">Lorem ipsum dolor sit </span>
+                            <span class="text-align-right float-right">Rs.000.00  </span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-5 p-0 pl-4">
+                        <div class="card shadow border-0">
+                            <img class="fav-img position-absolute float-right end-0 m-4" src="/pappaya_nisa_backend/static/src/img/wishlist/fav.svg" alt="fav img"/>
+                            <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/wishlist/Rectangle 130.png" alt="Card image cap"/>
+                        </div>
+                        <div class="prod-details mt-3">
+                            <span class="text-align-left float-left">Lorem ipsum dolor sit </span>
+                            <span class="text-align-right float-right">Rs.000.00  </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mx-5">
+                    <div class="col-md-6 mb-5 p-0 pr-4">
+                        <div class="card shadow border-0">
+                            <img class="fav-img position-absolute float-right end-0 m-4" src="/pappaya_nisa_backend/static/src/img/wishlist/fav.svg" alt="fav img"/>
+                            <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/wishlist/Rectangle 104.png" alt="Card image cap"/>
+                        </div>
+                        <div class="prod-details mt-3">
+                            <span class="text-align-left float-left">Lorem ipsum dolor sit </span>
+                            <span class="text-align-right float-right">Rs.000.00  </span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-5 p-0 pl-4">
+                        <div class="card shadow border-0">
+                            <img class="fav-img position-absolute float-right end-0 m-4" src="/pappaya_nisa_backend/static/src/img/wishlist/fav.svg" alt="fav img"/>
+                            <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/wishlist/Rectangle 105.png" alt="Card image cap"/>
+                        </div>
+                        <div class="prod-details mt-3">
+                            <span class="text-align-left float-left">Lorem ipsum dolor sit </span>
+                            <span class="text-align-right float-right">Rs.000.00  </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mx-5">
+                    <div class="col-md-7 p-0">
+                        <img class="w-100" src="/pappaya_nisa_backend/static/src/img/wishlist/Rectangle 170.png" alt="Sofa set"/>
+                    </div>
+                    <div class="bg-peach col-md-5 p-5" style="background-color: #FFE9E9">
+                        <h4 class="font-weight-bold">Sofas for you </h4>
+                        <p class="font-18 mt-4">Lorem ipsum dolor sit Lorem ipsum dolor sit amet, consect etur adipiscing elit, sed do eiusmod tempor incididunt ut labore etdolore magna  aliqua. Ut enim ad minim veniam, 
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in  reprehen derit in voluptate velitesse cillum dolore eu fugiat nulla pariatur. 
+                        </p>
+                        <p class="font-18">Lorem ipsum dolor sit Lorem ipsum dolor sit amet,consect etur adipiscing elit, sed do eiusmod tempor incididunt ut labore etdolore magna  aliqua. Ut enim ad minimDuis aute
+                            irure dolor in  reprehenderit in voluptate velitesse cillum dolore eu fugiat nulla pariatur. </p>
+                    </div>
+                </div>
+                <div class="row mx-5 mt-5">
+                    <div class="col-md-6 mb-5 p-0 pr-4">
+                        <div class="card shadow border-0">
+                            <img class="fav-img position-absolute float-right end-0 m-4" src="/pappaya_nisa_backend/static/src/img/wishlist/fav.svg" alt="fav img"/>
+                            <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/wishlist/Rectangle 102.png" alt="Card image cap"/>
+                        </div>
+                        <div class="prod-details mt-3">
+                            <span class="text-align-left float-left">Lorem ipsum dolor sit </span>
+                            <span class="text-align-right float-right">Rs.000.00  </span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-5 p-0 pl-4">
+                        <div class="card shadow border-0">
+                            <img class="fav-img position-absolute float-right end-0 m-4" src="/pappaya_nisa_backend/static/src/img/wishlist/fav.svg" alt="fav img"/>
+                            <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/wishlist/Rectangle 130.png" alt="Card image cap"/>
+                        </div>
+                        <div class="prod-details mt-3">
+                            <span class="text-align-left float-left">Lorem ipsum dolor sit </span>
+                            <span class="text-align-right float-right">Rs.000.00  </span>
+                        </div>
+                    </div>
+                </div>
+                <!--js file-->
+                <script src="/pappaya_nisa_backend/static/src/js/mainpage.js"></script>
+                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+                
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+            </body>
+        </t>
+    </template>
+</odoo>

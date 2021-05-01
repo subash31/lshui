@@ -24,6 +24,8 @@
         'template/nisa_minimal.xml',
         'template/nisa_pop.xml',
         'template/nisa_urban.xml',
+        'template/nisa_wishlist.xml',
+        'template/lsh_prod_details.xml',
     ],
     'qweb': [],
     'installable': True,

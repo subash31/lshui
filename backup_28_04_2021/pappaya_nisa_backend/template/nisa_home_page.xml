@@ -1,0 +1,1576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <data>
+
+      <template id="nisa_home_page" name="lifespacehome" >
+         <t t-call="website.layout">
+         <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" /> -->
+            <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" /> -->
+            
+            <head>
+            
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"/>
+
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+<link rel="stylesheet" href="/pappaya_nisa_backend/static/src/css/mainpage.css"/>
+<link href="/pappaya_nisa_backend/static/src/web/uicons-regular-rounded.css" rel="stylesheet"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+    
+<!-- sliding carosuel-->
+<div id="carouselExampleControls" class="carousel slide pt-5 px-md-5" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.007/Rectangle_10.png" class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.007/Rectangle_10.png" class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.007/Rectangle_10.png" class="d-block w-100" alt="..."/>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  <div>
+  <h3 id="exp1" class="pt-5 mt-4 h1 font-weight-bold mb-4">Explore By Style</h3>
+</div>
+</div>
+
+<div class="mx-md-5 mx-auto">
+<!--  grid systems-->
+
+    <div class="row featurette">
+      <div class="col-md-7 bg-drop-left pr-0 mt-5 pl-5" style="background-color:">
+        <h2 class="featurette-heading h1 font-weight-bold mt-5">Urban Luxury</h2>
+        <p class="lead mt-4 w-95">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.</p>
+      <button type="button" class="btn-dark p-3 h5 font-weight-bold mt-4" style="background-color:black">View More Urban Luxury</button>
+      <div class="row" style="margin-top: 68px;">
+    <!--Carousel Wrapper-->
+    <div id="multi-item-example3" class="carousel slide carousel-multi-item w-95" data-ride="carousel">
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+            <!--First slide-->
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-4">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.016/URL-SET.016.jpg" height="140"
+                        alt="Card image cap" />
+                    </div>
+                    </div>
+
+                    <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.012/URL-SET.012.jpg" height="140"
+                        alt="Card image cap" />
+                    </div>
+                    </div>
+
+                    <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.013/URL-SET.013.jpg" height="140"
+                        alt="Card image cap" />
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.First slide-->
+            <!--First slide-->
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-4">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.016/URL-SET.016.jpg" height="140"
+                        alt="Card image cap" />
+                    </div>
+                    </div>
+
+                    <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.012/URL-SET.012.jpg" height="140"
+                        alt="Card image cap" />
+                    </div>
+                    </div>
+
+                    <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.013/URL-SET.013.jpg" height="140"
+                        alt="Card image cap" />
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.First slide-->
+        </div>
+        <!--Controls-->
+        <div class="controls-top">
+            <a class="btn-floating carousel-control-prev" href="#multi-item-example3" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+            <a class="btn-floating carousel-control-next" href="#multi-item-example3" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+        </div>
+      <!--/.Controls-->
+      <!--/.Slides-->
+    </div>
+    </div>
+    </div>
+      <div class="col-md-5 pl-0" >
+<img src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.037/Rectangle_15.png" style="width: inherit; height: 97vh"/>
+      </div>
+    </div>
+
+    <div class="row featurette mt-80">
+      <div class="col-md-7 bg-drop-right order-md-2 pl-0 mt-5 pr-5" style="background-color: ">
+        <h2 class="featurette-heading h1 font-weight-bold mt-5 ml-4 pl-2">Industrial </h2>
+        <p class="lead mt-4 ml-4 pl-2">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="ml-4 pl-2">
+            <button type="button" class="btn-dark p-3 h5 font-weight-bold mt-4" style="background-color:black">View More Industrial </button>
+      </div>
+    <div class="row ml-4 pl-2" style="margin-top:68px;">
+        <div id="multi-item-example1" class="carousel slide carousel-multi-item pl-0" data-ride="carousel">
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                <!--First slide-->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.006/IND-SET.006.jpg" height="140"
+                            alt="Card image cap" />
+                        </div>
+                        </div>
+
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.002/IND-SET.002.jpg" height="140"
+                            alt="Card image cap" />
+                        </div>
+                        </div>
+
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.004/IND-SET.004.jpg" height="140"
+                            alt="Card image cap" />
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.First slide-->
+            </div>
+            <!--Controls-->
+            <div class="controls-top">
+                <a class="btn-floating carousel-control-prev" href="#multi-item-example1" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                <a class="btn-floating carousel-control-next" href="#multi-item-example1" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+            </div>
+        <!--/.Controls-->
+        <!--/.Slides-->
+        </div>
+    </div>
+      </div>
+        <div class="col-md-5 pr-0">
+            <img src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.019/Rectangle_23.png" style="width:inherit; height: 97vh"/>
+        </div>
+    </div>
+
+
+    <div class="row featurette mt-80">
+      <div class="col-md-7 bg-drop-left mt-5 pr-0 pl-5 order-m-2">
+        <h2 class="featurette-heading h1 font-weight-bold mt-5">Pop</h2>
+        <p class="lead mt-4 w-95">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo</p>
+        <button type="button" class="btn-dark p-3 h5 font-weight-bold mt-4" style="background-color:black;">View More Pop</button>
+        <div class="row" style="margin-top:68px;">
+            <div id="multi-item-example4" class="carousel slide carousel-multi-item w-95" data-ride="carousel">
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+                    <!--First slide-->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                            <div class="card mb-2">
+                                <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.003/POP-SET.003.jpg" height="140" alt="Card image cap" />
+                            </div>
+                            </div>
+
+                <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.013/POP-SET.013.jpg" height="140"
+                                alt="Card image cap" />
+                            </div>
+                            </div>
+
+                            <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.004/POP-SET.004.jpg" height="140"
+                                alt="Card image cap" />
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.First slide-->
+                </div>
+                <!--Controls-->
+                <div class="controls-top">
+                    <a class="btn-floating carousel-control-prev" href="#multi-item-example4" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                    <a class="btn-floating carousel-control-next" href="#multi-item-example4" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+                </div>
+            <!--/.Controls-->
+            <!--/.Slides-->
+            </div>
+        </div>
+    </div>
+      <div class="col-md-5 order-md-1 pl-0">
+        <img src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.031/Rectangle_31.png" style="width: inherit; height: 97vh;"/>
+      </div>
+    </div>
+
+
+    <div class="row featurette mt-80">
+      <div class="col-md-7 bg-drop-right order-md-2 mt-5 pr-5 pl-0">
+        <h2 class="featurette-heading h1 font-weight-bold mt-5 ml-4 pl-2" >Minimal </h2>
+        <p class="lead mt-4 ml-4 pl-2">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo</p>
+        <div class="ml-4 pl-2">
+            <button type="button" class="btn-dark p-3 h5 font-weight-bold mt-4" style="background-color:black;">View More Minimal </button>
+        </div>
+      <!-- sliding gallery-->
+       <div class="row ml-4 pl-2" style="margin-top:68px;">
+            <div id="multi-item-example2" class="carousel slide carousel-multi-item w-95 pl-0" data-ride="carousel">
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+                    <!--First slide-->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                            <div class="card mb-2">
+                                <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/MINIMAL/MIN-SET.001/MIN-SET.001.jpg" height="140"
+                                alt="Card image cap" />
+                            </div>
+                            </div>
+
+                            <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/MINIMAL/MIN-SET.012/MIN-SET.012.jpg" height="140"
+                                alt="Card image cap" />
+                            </div>
+                            </div>
+
+                            <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/MINIMAL/MIN-SET.009/MIN-SET.009.jpg" height="140"
+                                alt="Card image cap" />
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.First slide-->
+                </div>
+                <!--Controls-->
+                <div class="controls-top">
+                    <a class="btn-floating carousel-control-prev" href="#multi-item-example2" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                    <a class="btn-floating carousel-control-next" href="#multi-item-example2" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+                </div>
+            <!--/.Controls-->
+            <!--/.Slides-->
+            </div>
+        </div>
+
+      </div>
+      <div class="col-md-5 order-md-1 pr-0">
+        <img src="/pappaya_nisa_backend/static/src/img/MINIMAL/MIN-SET.003/Rectangle_40.png" style="width: inherit; height:98vh"/>
+      </div>
+    </div>
+
+
+</div>
+<!--footer-->
+<footer class="pt-4 mt-md-5 pt-md-5 border-top px-md-5" style="background-color:black">
+    <div class="row m-0">
+        <div class="col-12 col-md">
+        <small class="d-block mb-3 text-muted"></small>
+        </div>
+        <div class="col-6 col-md">
+        <h5 style="color:white;" class="footer-title text-right">Styles</h5>
+        <ul class="list-unstyled text-right">
+            <li><a href="#">Cool stuff</a></li>
+            <li><a href="#">Random feature</a></li>
+            <li><a href="#">Team feature</a></li>
+            <li><a href="#">Stuff for developers</a></li>
+        </ul>
+        </div>
+        <div class="col-6 col-md">
+        <h5 style="color:white;" class="footer-title text-right">Furnitures</h5>
+        <ul class="list-unstyled text-right">
+         <li><a href="#">Resource</a></li>
+            <li><a href="#">Resource name</a></li>
+            <li><a href="#">Another resource</a></li>
+            <li><a href="#">Final resource</a></li>
+        </ul>
+        </div>
+        <div class="col-6 col-md">
+        <h5 style="color:white;" class="footer-title text-right">Company</h5>
+        <ul class="list-unstyled text-right">
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+        </ul>
+        </div>
+    </div>
+    <hr/>
+    <!-- Copyright -->
+    <div class="text-left p-3 text-white">
+        © 
+        <a class="text-white">Lifespace home 2020</a>
+    </div>
+<!-- Copyright -->
+</footer>
+
+<div class="d-none">
+
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.002/IND-SET.002.jpg" alt="First slide"/>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/pappaya_nisa_backend/static/src/img/MINIMAL/MIN-SET.007/MIN-SET.007.jpg" alt="Second slide"/>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/pappaya_nisa_backend/static/src/img/MINIMAL/MIN-SET.013/MIN-SET.013.jpg" alt="Third slide"/>
+    </div>
+  </div>
+</div>
+  <h5 class="card1">Product in Style</h5>
+<!--card section-->
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.019/URL-ST.C028.jpg" alt=""/>
+    <div class="card-body">
+ 
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.011/URL-ST.C022.jpg" alt=""/>
+    <div class="card-body">
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.024/URL-ST.C003.jpg" alt=""/>
+  </div>
+</div>
+<div class="container1">
+  <a class="data-scroll" href="#full">
+    <div class="arrow"  onclick="myFunction()"></div>
+  </a>
+</div>
+<div id="full"></div>
+<h5 class="card3">product in thisstyle</h5>
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.027/URL-ST.C033.jpg" alt=""/>
+    
+  </div>
+
+  <div class="card">
+    <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.025/SIDE%20TABLE.JPG" alt=""/>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.021/CENTER%20TABLE.jpg" alt=""/>
+  </div>
+</div>
+<div>
+</div>
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.017/URL-SET.017.jpg" class="d-block w-100" alt=""/>
+    </div>
+    <div class="carousel-item">
+      <img src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.032/POP-ST.S023.jpg" class="d-block w-100" alt=""/>
+    </div>
+    <div class="carousel-item">
+      <img src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.021/POP-SET.021.jpg" class="d-block w-100" alt=""/>
+    </div>
+  </div>
+ 
+</div>
+
+<div class="card-deck" style="margin-top:18px;">
+  <div class="card">
+   <i class="fi-rr-heart" style="margin-left:540px;"></i>
+    <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.015/IND-ST.S011.jpg" alt=""/>
+    <div class="card-body">  
+  </div>
+  </div>
+
+  <div class="card">
+   <i class="fi-rr-heart" style="margin-left:540px;"></i>
+    <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/MINIMAL/MIN-SET.017/MIN-SP.DB004.jpg"  alt=""/>
+    <div class="card-body">
+    </div>
+  </div>
+</div>
+
+
+<div class="card-deck" style="margin-top:18px;">
+    <div class="col-md-6">
+        <div class="card">
+        <i class="fi-rr-heart" style="margin-left:540px;"></i>
+            <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.017/URL-ST.S016.jpg" alt=""/>
+            <div class="card-body">  
+        </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card">
+        <i class="fi-rr-heart" style="margin-left:540px;"></i>
+            <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.015/URL-ST.S014.jpg"  alt=""/>
+            <div class="card-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr class="featurette-divider"/>
+<div class="row featurette">
+      <div class="col-md-6 order-md-2"  style="background-color: antiquewhite;">
+        <h2 class="featurette-heading">Majmjhvm </h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo</p>
+
+      </div>
+      <div class="col-md-6 order-md-1">
+        <img class="zoom" src="/pappaya_nisa_backend/static/src/img/MINIMAL/MIN-SET.007/MIN-ST.C013.jpg" style="width: inherit;"/>
+      </div>
+    </div>
+
+<div class="card-deck" style="margin-top:18px;">
+    <div class="col-md-6">
+        <div class="card">
+        <i class="fi-rr-heart"></i>
+            <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.035/URL-ST.S030.jpg" alt=""/>
+            <div class="card-body">  
+        </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card">
+        <i class="fi-rr-heart"></i>
+            <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.028/URL-SP.B014.jpg"  alt=""/>
+            <div class="card-body">
+            </div>
+        </div>
+        </div>
+    </div>
+
+<div class="row">
+<div class="col-7">
+<img src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.003/URL-ST.S011.jpg" style="width:100%"/>
+</div>
+<div class="col-5">
+<h4 style="font-size:40px; font-weight:bold;">Amestedram</h4>
+<p>.Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper.</p>
+        <h5 style="font-weight:bold;">INR 27000</h5>
+        <button type="button" class="btn btn-warning">Add to cart</button>
+</div>
+</div>
+
+       <!-- Topic Cards -->
+    <div id="cards_landscape_wrap-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.002/IND-SET.002.jpg" alt="" />
+                                
+                                <div class="text-container">
+                                    <h6 style="color:black;">Industrial</h6>
+                                    </div>
+                                </div>
+                                                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="/pappaya_nisa_backend/static/src/img/MINIMAL/MIN-SET.001/MIN-SET.001.jpg" alt="" />
+                        
+                             <div class="text-container">
+                                      <h6 style="color:black;">Minimal</h6>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.004/POP-SET.004.jpg" alt="" />
+                     
+                           <div class="text-container">
+                                        <h6 style="color:black;">Pop</h6>
+                                    </div>
+                              </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.004/URL-SET.004.jpg" alt="" />
+                                     
+                                    <div class="text-container">
+                                   <h6 style="color:black;">Urban Luxury</h6>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+
+<!-- industrial page-->
+<div class="parent">
+      <img src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.014/IND-SET.014.jpg"  style="width:100%;"/>
+      <div class="text" style="text-align: -moz-center;margin-bottom: 187px;font-size: 25px;">
+        <h2>INDUSTRIAL</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+      </div>
+    </div>
+    <!--sliding two cards section-->
+ <hr class="featurette-divider"/>
+<section class="container p-t-3">
+    <div class="row">
+       
+    </div>
+</section>
+<section class="carousel slide" data-ride="carousel" id="postsCarousel">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-xs-12 text-md-right lead">
+                <a class="btn btn-outline-secondary prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
+                <a class="btn btn-outline-secondary next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+            </div> -->
+        </div>
+    </div>
+    <div class="container p-t-0 m-t-2 carousel-inner">
+        <div class="row row-equal carousel-item active m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.001/IND-SP.B015.png" alt="Carousel 1"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.003/IND-SP.B017.jpg" alt="Carousel 2"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+        <div class="row row-equal carousel-item m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.005/IND-SP.B019.png" alt="Carousel 4"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.006/IND-SP.B007.jpg" alt="Carousel 5"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</section>
+ 
+
+ <hr class="featurette-divider"/>
+
+    <div class="row featurette">
+      <div class="col-md-6 order-md-2"  style="background-color: aliceblue;">
+        <h2 class="featurette-heading">Amestedram </h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo</p>
+      <button type="button" class="btn btn-dark" style="background-color:black;">View More Amestedram </button>
+      <!-- sliding gallery-->
+       
+
+      </div>
+      <div class="col-md-6 order-md-1">
+        <img src="/pappaya_nisa_backend/static/src/img/MINIMAL/MIN-SET.007/MIN-ST.C013.jpg" style="width: inherit;"/>
+      </div>
+    </div>
+
+
+
+
+<hr class="featurette-divider"/>
+<section class="container p-t-3">
+    <div class="row">
+       
+    </div>
+</section>
+<section class="carousel slide" data-ride="carousel" id="postsCarousel">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-xs-12 text-md-right lead">
+                <a class="btn btn-outline-secondary prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
+                <a class="btn btn-outline-secondary next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+            </div> -->
+        </div>
+    </div>
+    <div class="container p-t-0 m-t-2 carousel-inner">
+        <div class="row row-equal carousel-item active m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.001/IND-SP.B015.png" alt="Carousel 1"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.003/IND-SP.B017.jpg" alt="Carousel 2"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+        <div class="row row-equal carousel-item m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.005/IND-SP.B019.png" alt="Carousel 4"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.006/IND-SP.B007.jpg" alt="Carousel 5"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</section>
+<hr class="featurette-divider"/>
+
+    <div class="row featurette">
+      <div class="col-md-6" style="background-color: antiquewhite;">
+        <h2 class="featurette-heading" style="margin-left: 29px;">Charolette </h2>
+        <p class="lead" style="margin-left: 29px;">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.</p>
+      <button type="button" class="btn btn-dark" style="background-color:black; margin-left: 29px;">View More Charolette </button>
+   
+
+      </div>
+      <div class="col-md-6">
+<img src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.016/IND-ST.POS011.jpg" style="width:inherit;"/>
+      </div>
+    </div>
+
+<hr class="featurette-divider"/>
+<section class="container p-t-3">
+    <div class="row">
+       
+    </div>
+</section>
+<section class="carousel slide" data-ride="carousel" id="postsCarousel">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-xs-12 text-md-right lead">
+                <a class="btn btn-outline-secondary prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
+                <a class="btn btn-outline-secondary next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+            </div> -->
+        </div>
+    </div>
+    <div class="container p-t-0 m-t-2 carousel-inner">
+        <div class="row row-equal carousel-item active m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.001/IND-SP.B015.png" alt="Carousel 1"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.003/IND-SP.B017.jpg" alt="Carousel 2"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+        <div class="row row-equal carousel-item m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.005/IND-SP.B019.png" alt="Carousel 4"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.006/IND-SP.B007.jpg" alt="Carousel 5"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</section>
+
+<!-- MINIMAL page-->
+<div class="parent">
+      <img src="/pappaya_nisa_backend/static/src/img/MINIMAL/MIN-SET.012/MIN-SET.012.jpg"  style="width:100%;"/>
+      <div class="text" style="text-align: -moz-center;margin-bottom: 187px;font-size: 25px;">
+        <h2>MINIMAL</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+      </div>
+    </div>
+    <!--sliding two cards section-->
+ <hr class="featurette-divider"/>
+<section class="container p-t-3">
+    <div class="row">
+       
+    </div>
+</section>
+<section class="carousel slide" data-ride="carousel" id="postsCarousel">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-xs-12 text-md-right lead">
+                <a class="btn btn-outline-secondary prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
+                <a class="btn btn-outline-secondary next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+            </div> -->
+        </div>
+    </div>
+    <div class="container p-t-0 m-t-2 carousel-inner">
+        <div class="row row-equal carousel-item active m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/MINIMAL/MIN-SET.009/MIN-SET.009.jpg" alt="Carousel 1"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/MINIMAL/MIN-SET.006/MIN-SET.006.jpg" alt="Carousel 2"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+        <div class="row row-equal carousel-item m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/MINIMAL/MIN-SET.004/MIN-SET.004.jpg" alt="Carousel 4"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/MINIMAL/MIN-SET.002/MIN-SET.002.jpg" alt="Carousel 5"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</section>
+ 
+
+ <hr class="featurette-divider"/>
+
+    <div class="row featurette">
+      <div class="col-md-6 order-md-2"  style="background-color: aliceblue;">
+        <h2 class="featurette-heading">Amestedram </h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo</p>
+      <button type="button" class="btn btn-dark" style="background-color:black;">View More Amestedram </button>
+      <!-- sliding gallery-->
+       
+
+      </div>
+      <div class="col-md-6 order-md-1">
+        <img src="/pappaya_nisa_backend/static/src/img/MINIMAL/MIN-SET.019/MIN-ST.C020.jpg" style="width: inherit;"/>
+      </div>
+    </div>
+
+
+
+
+<hr class="featurette-divider"/>
+<section class="container p-t-3">
+    <div class="row">
+       
+    </div>
+</section>
+<section class="carousel slide" data-ride="carousel" id="postsCarousel">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-xs-12 text-md-right lead">
+                <a class="btn btn-outline-secondary prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
+                <a class="btn btn-outline-secondary next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+            </div> -->
+        </div>
+    </div>
+    <div class="container p-t-0 m-t-2 carousel-inner">
+        <div class="row row-equal carousel-item active m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/MINIMAL/MIN-SET.002/MIN-SET.002.jpg" alt="Carousel 1"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/MINIMAL/MIN-SET.004/MIN-SET.004.jpg" alt="Carousel 2"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+        <div class="row row-equal carousel-item m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/MINIMAL/MIN-SET.004/MIN-SET.004.jpg" alt="Carousel 4"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/MINIMAL/MIN-SET.002/MIN-SET.002.jpg" alt="Carousel 5"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</section>
+<hr class="featurette-divider"/>
+
+    <div class="row featurette">
+      <div class="col-md-6" style="background-color: antiquewhite;">
+        <h2 class="featurette-heading" style="margin-left: 29px;">Charolette </h2>
+        <p class="lead" style="margin-left: 29px;">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.</p>
+      <button type="button" class="btn btn-dark" style="background-color:black; margin-left: 29px;">View More Charolette </button>
+   
+
+      </div>
+      <div class="col-md-6">
+<img src="/pappaya_nisa_backend/static/src/img/MINIMAL/MIN-SET.024/MIN-ST.C022.jpg" style="width:inherit;"/>
+      </div>
+    </div>
+
+<hr class="featurette-divider"/>
+<section class="container p-t-3">
+    <div class="row">
+       
+    </div>
+</section>
+<section class="carousel slide" data-ride="carousel" id="postsCarousel">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-xs-12 text-md-right lead">
+                <a class="btn btn-outline-secondary prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
+                <a class="btn btn-outline-secondary next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+            </div> -->
+        </div>
+    </div>
+    <div class="container p-t-0 m-t-2 carousel-inner">
+        <div class="row row-equal carousel-item active m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.001/IND-SP.B015.png" alt="Carousel 1"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.003/IND-SP.B017.jpg" alt="Carousel 2"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+        <div class="row row-equal carousel-item m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.005/IND-SP.B019.png" alt="Carousel 4"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.006/IND-SP.B007.jpg" alt="Carousel 5"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</section>
+
+
+<!-- urban page-->
+<div class="parent">
+      <img src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.004/URL-SET.004.jpg"  style="width:100%;"/>
+      <div class="text" style="text-align: -moz-center;margin-bottom: 187px;font-size: 25px;">
+        <h2>URBAN</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+      </div>
+    </div>
+    <!--sliding two cards section-->
+ <hr class="featurette-divider"/>
+<section class="container p-t-3">
+    <div class="row">
+       
+    </div>
+</section>
+<section class="carousel slide" data-ride="carousel" id="postsCarousel">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-xs-12 text-md-right lead">
+                <a class="btn btn-outline-secondary prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
+                <a class="btn btn-outline-secondary next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+            </div> -->
+        </div>
+    </div>
+    <div class="container p-t-0 m-t-2 carousel-inner">
+        <div class="row row-equal carousel-item active m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.003/URL-ST.S011.jpg" alt="Carousel 1"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.003/URL-SP.B013.jpg" alt="Carousel 2"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+        <div class="row row-equal carousel-item m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.005/IND-SP.B019.png" alt="Carousel 4"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.006/IND-SP.B007.jpg" alt="Carousel 5"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</section>
+ 
+
+ <hr class="featurette-divider"/>
+
+    <div class="row featurette">
+      <div class="col-md-6 order-md-2"  style="background-color: aliceblue;">
+        <h2 class="featurette-heading">Amestedram </h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo</p>
+      <button type="button" class="btn btn-dark" style="background-color:black;">View More Amestedram </button>
+      <!-- sliding gallery-->
+       
+
+      </div>
+      <div class="col-md-6 order-md-1">
+        <img src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-%20SET.001/URL-ST.C013.jpg" style="width: inherit;"/>
+      </div>
+    </div>
+
+
+
+
+<hr class="featurette-divider"/>
+<section class="container p-t-3">
+    <div class="row">
+       
+    </div>
+</section>
+<section class="carousel slide" data-ride="carousel" id="postsCarousel">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-xs-12 text-md-right lead">
+                <a class="btn btn-outline-secondary prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
+                <a class="btn btn-outline-secondary next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+            </div> -->
+        </div>
+    </div>
+    <div class="container p-t-0 m-t-2 carousel-inner">
+        <div class="row row-equal carousel-item active m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.003/URL-SP.B013.jpg" alt="Carousel 1"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.003/URL-ST.S011.jpg" alt="Carousel 2"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+        <div class="row row-equal carousel-item m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.005/IND-SP.B019.png" alt="Carousel 4"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.006/IND-SP.B007.jpg" alt="Carousel 5"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</section>
+<hr class="featurette-divider"/>
+
+    <div class="row featurette">
+      <div class="col-md-6" style="background-color: antiquewhite;">
+        <h2 class="featurette-heading" style="margin-left: 29px;">Charolette </h2>
+        <p class="lead" style="margin-left: 29px;">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.</p>
+      <button type="button" class="btn btn-dark" style="background-color:black; margin-left: 29px;">View More Charolette </button>
+   
+
+      </div>
+      <div class="col-md-6">
+<img src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.004/URL-ST.C015.jpg" style="width:inherit;"/>
+      </div>
+    </div>
+
+<hr class="featurette-divider"/>
+<section class="container p-t-3">
+    <div class="row">
+       
+    </div>
+</section>
+<section class="carousel slide" data-ride="carousel" id="postsCarousel">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-xs-12 text-md-right lead">
+                <a class="btn btn-outline-secondary prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
+                <a class="btn btn-outline-secondary next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+            </div> -->
+        </div>
+    </div>
+    <div class="container p-t-0 m-t-2 carousel-inner">
+        <div class="row row-equal carousel-item active m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.003/URL-SP.B013.jpg" alt="Carousel 1"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/URBAN%20LUXURY/URL-SET.003/URL-ST.S011.jpg" alt="Carousel 2"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+        <div class="row row-equal carousel-item m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.005/IND-SP.B019.png" alt="Carousel 4"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.006/IND-SP.B007.jpg" alt="Carousel 5"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</section>
+
+
+<!--pop page-->
+<div class="parent">
+      <img src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.010/POP-SET.010.jpg"  style="width:100%;"/>
+      <div class="text" style="text-align: -moz-center;margin-bottom: 187px;font-size: 25px;">
+        <h2>POP</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+      </div>
+    </div>
+    <!--sliding two cards section-->
+ <hr class="featurette-divider"/>
+<section class="container p-t-3">
+    <div class="row">
+       
+    </div>
+</section>
+<section class="carousel slide" data-ride="carousel" id="postsCarousel">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-xs-12 text-md-right lead">
+                <a class="btn btn-outline-secondary prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
+                <a class="btn btn-outline-secondary next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+            </div> -->
+        </div>
+    </div>
+    <div class="container p-t-0 m-t-2 carousel-inner">
+        <div class="row row-equal carousel-item active m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.018/CENTER%20TABLE.jpg" alt="Carousel 1"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.018/POP-SET.018.jpg" alt="Carousel 2"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+        <div class="row row-equal carousel-item m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.020/POP-ST.S018.jpg" alt="Carousel 4"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.016/POP-ST.S015.jpg" alt="Carousel 5"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</section>
+ 
+
+ <hr class="featurette-divider"/>
+
+    <div class="row featurette">
+      <div class="col-md-6 order-md-2"  style="background-color: aliceblue;">
+        <h2 class="featurette-heading">Amestedram </h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo</p>
+      <button type="button" class="btn btn-dark" style="background-color:black;">View More Amestedram </button>
+      <!-- sliding gallery-->
+       
+
+      </div>
+      <div class="col-md-6 order-md-1">
+        <img src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.014/POP-SET.014.jpg" style="width: inherit;"/>
+      </div>
+    </div>
+
+
+
+
+<hr class="featurette-divider"/>
+<section class="container p-t-3">
+    <div class="row">
+       
+    </div>
+</section>
+<section class="carousel slide" data-ride="carousel" id="postsCarousel">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-xs-12 text-md-right lead">
+                <a class="btn btn-outline-secondary prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
+                <a class="btn btn-outline-secondary next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+            </div> -->
+        </div>
+    </div>
+    <div class="container p-t-0 m-t-2 carousel-inner">
+        <div class="row row-equal carousel-item active m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.006/POP-SP.B015.jpg" alt="Carousel 1"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.005/POP-SP.B014.png" alt="Carousel 2"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+        <div class="row row-equal carousel-item m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.009/DINING%20TABLE.jpg" alt="Carousel 4"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.010/DINING%20TABLE.jpg" alt="Carousel 5"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</section>
+<hr class="featurette-divider"/>
+
+    <div class="row featurette">
+      <div class="col-md-6" style="background-color: antiquewhite;">
+        <h2 class="featurette-heading" style="margin-left: 29px;">Charolette </h2>
+        <p class="lead" style="margin-left: 29px;">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.</p>
+      <button type="button" class="btn btn-dark" style="background-color:black; margin-left: 29px;">View More Charolette </button>
+   
+
+      </div>
+      <div class="col-md-6">
+<img src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.001/POP-SET.001.jpg" style="width:inherit;"/>
+      </div>
+    </div>
+
+<hr class="featurette-divider"/>
+<section class="container p-t-3">
+    <div class="row">
+       
+    </div>
+</section>
+<section class="carousel slide" data-ride="carousel" id="postsCarousel">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-xs-12 text-md-right lead">
+                <a class="btn btn-outline-secondary prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
+                <a class="btn btn-outline-secondary next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+            </div> -->
+        </div>
+    </div>
+    <div class="container p-t-0 m-t-2 carousel-inner">
+        <div class="row row-equal carousel-item active m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.001/IND-SP.B015.png" alt="Carousel 1"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.003/IND-SP.B017.jpg" alt="Carousel 2"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+        <div class="row row-equal carousel-item m-t-0">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.005/IND-SP.B019.png" alt="Carousel 4"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.006/IND-SP.B007.jpg" alt="Carousel 5"/>
+                    </div>
+                    <div class="card-block p-t-2">
+                        
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</section>
+
+
+<!--product page-->
+
+   
+<!--js file-->
+ <script src="/pappaya_nisa_backend/static/src/js/mainpage.js"></script>
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</div>
+</body>
+         </t>
+      </template>
+   </data>
+</odoo>

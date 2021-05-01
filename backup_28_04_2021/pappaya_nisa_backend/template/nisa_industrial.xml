@@ -1,0 +1,239 @@
+<odoo>
+ <template id="nisa_industrial" name="Industrial">
+  <t t-call="website.layout">
+  <head>
+  
+  <link rel="stylesheet" href="/pappaya_nisa_backend/static/src/css/mainpage.css"/>
+  <style>
+body{
+    background:white!important;
+}
+  </style>
+</head>
+
+<div class="parent">
+   <img src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.014/IND-SET.014.jpg" style="width: 1218px;height: 540px;left: 45px;top: 132px;background: rgba(0, 0, 0, 0.29); margin-left: 25px;"/>
+      <div class="text" style="text-align: -moz-center;margin-bottom: 187px;font-size: 25px;">
+        <h2 style="font-family: Poppins;font-size: 53px;font-style: normal;font-weight: 700;line-height: 80px;letter-spacing: 0em;text-align: center; margin-left:25px;">INDUSTRIAL</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+      </div>
+    </div>
+          <div id="multi-item-example3" class="carousel slide carousel-multi-item w-95 mt-5" data-ride="carousel">
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+            <!--First slide-->
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-6">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/Rectangle%2015.png" alt="Card image cap" />
+                    </div>
+                    </div>
+
+                    <div class="col-md-6 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/Rectangle%2049.png" 
+                        alt="Card image cap" />
+                    </div>
+                    </div>
+
+                   
+                </div>
+            </div>
+            <!--/.First slide-->
+            <!--First slide-->
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-6">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/Rectangle%2057.png" 
+                        alt="Card image cap" />
+                    </div>
+                    </div>
+
+                    <div class="col-md-6 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/Rectangle%2058.png" 
+                        alt="Card image cap" />
+                    </div>
+                    </div>
+
+                  
+                </div>
+            </div>
+            <!--/.First slide-->
+        </div>
+        <!--Controls-->
+        <div class="controls-top">
+            <a class="btn-floating carousel-control-prev" href="#multi-item-example3" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+            <a class="btn-floating carousel-control-next" href="#multi-item-example3" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+        </div>
+      <!--/.Controls-->
+      <!--/.Slides-->
+    </div>
+
+    <div class="row featurette mt-80" style="margin-left:11px;">
+      <div class="col-md-7 bg-drop-right order-md-2 pl-0 mt-5 pr-5" style="background: linear-gradient(0deg, #FFE9E9, #FFE9E9); height:550px;">
+
+        <h2 class="featurette-heading h1 font-weight-bold mt-5 ml-4 pl-2">Amsterdam </h2>
+        <p class="lead mt-4 ml-4 pl-2">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="ml-4 pl-2">
+            <button type="button" class="btn-dark p-3 h5 font-weight-bold mt-4" style="background-color:black">Explore </button>
+      </div>
+    <div class="row ml-4 pl-2" style="margin-top:68px;">
+        <div id="multi-item-example1" class="carousel slide carousel-multi-item pl-0" data-ride="carousel">
+            <!--Slides-->
+            
+        
+        <!--/.Slides-->
+        </div>
+    </div>
+      </div>
+        <div class="col-md-5 pr-0">
+            <img src="/pappaya_nisa_backend/static/src/img/INDUSTRIAL/IND-SET.019/Rectangle_23.png" style="width:inherit; height: 97vh"/>
+        </div>
+    </div>
+
+
+    <div id="multi-item-example3" class="carousel slide carousel-multi-item w-95" data-ride="carousel">
+        <!--Slides-->
+        
+      <!--/.Slides-->
+    </div>
+
+    <div id="multi-item-example3" class="carousel slide carousel-multi-item w-95" data-ride="carousel">
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+            <!--First slide-->
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-6">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/Rectangle%2069.png" 
+                        alt="Card image cap" />
+                    </div>
+                    </div>
+
+                    <div class="col-md-6 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/Rectangle%2070.png" 
+                        alt="Card image cap" />
+                    </div>
+                    </div>
+
+                   
+                </div>
+            </div>
+            <!--/.First slide-->
+            <!--First slide-->
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-6">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/Rectangle%2058.png" 
+                        alt="Card image cap" />
+                    </div>
+                    </div>
+
+                    <div class="col-md-6 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/Rectangle%2057.png" 
+                        alt="Card image cap" />
+                    </div>
+                    </div>
+
+                  
+                </div>
+            </div>
+            <!--/.First slide-->
+        </div>
+        <!--Controls-->
+        <div class="controls-top">
+            <a class="btn-floating carousel-control-prev" href="#multi-item-example3" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+            <a class="btn-floating carousel-control-next" href="#multi-item-example3" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+        </div>
+      <!--/.Controls-->
+      <!--/.Slides-->
+    </div>
+
+
+
+    <div class="row featurette mt-80" style="margin-right:25px;">
+      <div class="col-md-7 bg-drop-left mt-5 pr-0 pl-5 order-m-2" style="background: linear-gradient(0deg, #E4E4E4, #E4E4E4); height:550px;">
+        <h2 class="featurette-heading h1 font-weight-bold mt-5" style="margin-left: 404px;">Charlotte</h2>
+       <p class="lead mt-4 w-95" style="margin-left: 42px;">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo.
+        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo</p>
+       <button type="button" class="btn-dark p-3 h5 font-weight-bold mt-4 " style="background-color:black; margin-left:553px;">Explore</button>
+        <div class="row" style="margin-top:68px;">
+            <div id="multi-item-example4" class="carousel slide carousel-multi-item w-95" data-ride="carousel">
+             
+            </div>
+        </div>
+    </div>
+      <div class="col-md-5 order-md-1 pl-0">
+        <img src="/pappaya_nisa_backend/static/src/img/POP/POP-SET.031/Rectangle_31.png" style="width: inherit; height: 97vh;"/>
+      </div>
+    </div>
+
+
+<div id="multi-item-example3" class="carousel slide carousel-multi-item w-95" data-ride="carousel">
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+            <!--First slide-->
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-6">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/Rectangle%2049.png" 
+                        alt="Card image cap" />
+                    </div>
+                    </div>
+
+                    <div class="col-md-6 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/Rectangle%2058.png" 
+                        alt="Card image cap" />
+                    </div>
+                    </div>
+
+                   
+                </div>
+            </div>
+            <!--/.First slide-->
+            <!--First slide-->
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-6">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/Rectangle%2070.png" 
+                        alt="Card image cap" />
+                    </div>
+                    </div>
+
+                    <div class="col-md-6 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="/pappaya_nisa_backend/static/src/img/Rectangle%2069.png" 
+                        alt="Card image cap" />
+                    </div>
+                    </div>
+
+                  
+                </div>
+            </div>
+            <!--/.First slide-->
+        </div>
+        <!--Controls-->
+        <div class="controls-top">
+            <a class="btn-floating carousel-control-prev" href="#multi-item-example3" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+            <a class="btn-floating carousel-control-next" href="#multi-item-example3" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+        </div>
+      <!--/.Controls-->
+      <!--/.Slides-->
+    </div>
+
+  </t>
+ </template>
+</odoo>
